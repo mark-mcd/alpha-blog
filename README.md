@@ -26,5 +26,5 @@ In the terminal (at the bottom) type:
 ```
 <h1>This is my index.erb file contents oh my.</h1>
 ```
-- modify `hello_world.rb` to use `index.erb`
+- modify `hello_world.rb` to use `index.erb` instead of returning a string.
   - Within the `get '/' do`: change `"Hello World! Welcome to Ruby!"` to `erb :index`.
