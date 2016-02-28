@@ -15,3 +15,7 @@ In the terminal (at the bottom) type:
 - `ruby hello_world.rb -o $IP -p $PORT`
   - this will run the file hello_world.rb, and tell it to make the site available online at a location.
   - Cloud 9 has wired things up so `$IP` and `$PORT` contains what it should on their server.
+- In the menu bar, click `Preview` => `Preview Running Application` and a browser pane will appear.
+- After each change you make to our files:
+  - save the file(s)
+  - refresh the browser pane
