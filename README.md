@@ -1,8 +1,8 @@
 ## Setting Up Cloud9
 - Go to `c9.io` and log in
 - Create a new workspace
-  - workspace name = `hello-world`
-  - clone from git = `https://gist.github.com/2f5f8bd2fdf583dc757a.git`
+  - `Workspace name` = `hello-world`
+  - `Clone from Git or Mercurial URL` = `https://gist.github.com/2f5f8bd2fdf583dc757a.git`
   - (everything else at defaults)
 
 
