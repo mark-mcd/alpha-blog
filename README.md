@@ -53,3 +53,7 @@ If we add ?num=10 to the url (mine looks like https://test-sk187.c9users.io/?num
 
 
 - Now try to modify the code in hello_world.rb's get '/' route to work with the fizzbuzz code we did earlier.
+
+
+## Pair Exercise
+Get your FizzBuzz code from earlier to work on Sinatra. You go to `mysite.com/?num=10` and it displays on the page whether it is `fizz`, `buzz`, etc.
