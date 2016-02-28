@@ -24,7 +24,7 @@ In the terminal (at the bottom) type:
 - Make a folder `views`
 - Add the file `views/index.erb` with the content
 ```
-This is my index.erb file contents oh my.
+<h1>This is my index.erb file contents oh my.</h1>
 ```
 - modify `hello_world.rb` to use `index.erb`
   - Within the `get '/' do`: change `"Hello World! Welcome to Ruby!"` to `erb :index`.
