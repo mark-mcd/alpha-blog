@@ -26,7 +26,18 @@ In the terminal (at the bottom) type:
 ```
 This is my index.erb file contents
 ```
-- modify `hello_world.rb` to contain
+- modify `hello_world.rb`. Change this template:
+
+`without template`
+```
+get '/' do
+  "Hello World! Welcome to Ruby!"
+end
+```
+
+into
+
+`with template`
 ```
 get '/' do
   erb :index
@@ -34,8 +45,3 @@ end
 ```
 
 in place of
-```
-get '/' do
-  "Hello World! Welcome to Ruby!"
-end
-```
