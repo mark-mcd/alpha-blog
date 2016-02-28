@@ -10,7 +10,7 @@
 Check out the files you have in this folder, see what they have.
 
 In the terminal (at the bottom) type:
-- `bundle`
+- `bundle install`
   - this will install the ruby `gem`s you need to have sinatra run
 - `ruby hello_world.rb-o $IP -p $PORT`
   - this will run the file hello_world.rb, and tell it to make the site available online at a location.
