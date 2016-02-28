@@ -1,3 +1,5 @@
+# Cloud 9 - Sinatra
+
 ## Setting Up Cloud9
 - Go to `c9.io` and log in
 - Create a new workspace
