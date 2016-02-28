@@ -56,4 +56,7 @@ If we add ?num=10 to the url (mine looks like https://test-sk187.c9users.io/?num
 
 
 ## Pair Exercise
-Get your FizzBuzz code from earlier to work on Sinatra. You go to `mysite.com/?num=10` and it displays on the page whether it is `fizz`, `buzz`, etc. For example `10: Fizz`
+Get your FizzBuzz code from earlier to work on Sinatra.
+- Goal: You go to `mysite.com/?num=10` and it displays on the page whether it is `fizz`, `buzz`, etc. For example `10: Fizz`.
+- You'll want to pass the result `fizz` or `buzz` to the template by assigning it to the variable `@result`.
+- You'll want to use a function `def fizzbuzz`... that returns a value
