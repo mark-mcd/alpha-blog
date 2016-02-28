@@ -3,7 +3,7 @@
 - Create a new workspace
   - workspace name = `hello-world`
   - clone from git = `https://gist.github.com/2f5f8bd2fdf583dc757a.git`
-  - template = `Custom` (stay at default)
+  - (everything else at defaults)
 
 
 ## In Cloud9
