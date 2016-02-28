@@ -24,7 +24,7 @@ In the terminal (at the bottom where it says `bash`) type:
 
 ## Templates
 - Make a folder `views`
-- Add the file `views/index.erb` with the content
+- Add the file `views/index.erb` (a file named `index.erb` in the folder `views/`) with the content
 ```
 <h1>This is my index.erb file contents oh my.</h1>
 ```
