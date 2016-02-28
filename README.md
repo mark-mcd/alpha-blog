@@ -19,3 +19,23 @@ In the terminal (at the bottom) type:
 - After each change you make to our files:
   - save the file(s)
   - refresh the browser pane
+
+## Templates
+- Make a folder `views`
+- Add the file `views/index.erb` with the content
+```
+This is my index.erb file contents
+```
+- modify `hello_world.rb` to contain
+```
+get '/' do
+  erb :index
+end
+```
+
+in place of
+```
+get '/' do
+  "Hello World! Welcome to Ruby!"
+end
+```
