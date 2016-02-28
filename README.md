@@ -1,6 +1,15 @@
-In your terminal:
-- `cd hello_world`
-  - if `pwd` returns something that ends in `hello_world`, you're in the right place
+## Setting Up Cloud9
+- Go to `c9.io` and log in
+- Create a new workspace
+  - workspace name = `hello-world`
+  - clone from git = `https://gist.github.com/2f5f8bd2fdf583dc757a.git`
+  - template = `Custom` (stay at default)
+
+
+## In Cloud9
+Check out the files you have in this folder, see what they have.
+
+In the terminal (at the bottom) type:
 - `bundle`
   - this will install the ruby `gem`s you need to have sinatra run
 - `ruby hello_world.rb-o $IP -p $PORT`
