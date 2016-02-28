@@ -30,3 +30,26 @@ In the terminal (at the bottom) type:
 ```
 - modify `hello_world.rb` to use `index.erb` instead of returning a string.
   - Within the `get '/' do`: change `"Hello World! Welcome to Ruby!"` to `erb :index`.
+
+## Pass Params
+- Modify your `hello_world.rb` `get '/' do` to include:
+
+```
+  get '/' do 
+    num = params['num'].to_i
+    @result = num+10
+    status 200
+    erb :index  
+  end
+```
+
+- Now in your index.erb add this to show the result 
+
+```
+  <%= "The result if #{@result}" %>
+```
+
+If we add ?num=10 to the url (mine looks like https://test-sk187.c9users.io/?num=10), the result should 20
+
+
+- Now try to modify the code in hello_world.rb's get '/' route to work with the fizzbuzz code we did earlier.
