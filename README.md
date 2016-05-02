@@ -1,10 +1,10 @@
-# Cloud 9 - Sinatra
+# Cloud 9 - Sinatra + Stripe
 
 ## Setting Up Cloud9
 - Go to `c9.io` and log in
 - Create a new workspace
-  - `Workspace name` = `hello-world`
-  - `Clone from Git or Mercurial URL` = `https://gist.github.com/2f5f8bd2fdf583dc757a.git`
+  - `Workspace name` = `hello-stripe`
+  - `Clone from Git or Mercurial URL` = `https://gist.github.com/f71ef966f488ab8fd984e0791cf96c07.git`
   - (everything else at defaults)
 
 
@@ -21,42 +21,3 @@ In the terminal (at the bottom where it says `bash`) type:
 - After each change you make to our files:
   - save the file(s)
   - refresh the browser pane
-
-## Templates
-- Make a folder `views`
-- Add the file `views/index.erb` (a file named `index.erb` in the folder `views/`) with the content
-```
-<h1>This is my index.erb file contents oh my.</h1>
-```
-- modify `hello_world.rb` to use `index.erb` instead of returning a string.
-  - Within the `get '/' do`: change `"Hello World! Welcome to Ruby!"` to `erb :index`.
-
-## Pass Params
-- Modify your `hello_world.rb` `get '/' do` to include:
-
-```
-  get '/' do 
-    num = params['num'].to_i
-    @result = num+10
-    status 200
-    erb :index  
-  end
-```
-
-- Now in your index.erb add this to show the result 
-
-```
-  <%= "The result if #{@result}" %>
-```
-
-If we add ?num=10 to the url (mine looks like https://test-sk187.c9users.io/?num=10), the result should 20
-
-
-- Now try to modify the code in hello_world.rb's get '/' route to work with the fizzbuzz code we did earlier.
-
-
-## Pair Exercise
-Get your FizzBuzz code from earlier to work on Sinatra.
-- Goal: You go to `mysite.com/?num=10` and it displays on the page whether it is `fizz`, `buzz`, etc. For example `10: Fizz`.
-- You'll want to pass the result `fizz` or `buzz` to the template by assigning it to the variable `@result`.
-- You'll want to use a function `def fizzbuzz`... that returns a value
