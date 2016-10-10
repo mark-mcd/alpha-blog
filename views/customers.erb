@@ -1,0 +1,9 @@
+<table>
+    <% @c.each do |customer| %>  
+        <tr>
+              <td><%= customer.id %><td>
+              <td><%= customer.email %></td>
+              <td><a href="../customer/<%= customer.id %>">Subscriptions [<%= customer.subscriptions.total_count %>] </a></td>
+        </tr>
+    <% end %>
+</table> 

@@ -1,0 +1,4 @@
+{"email":"mark@stripe.com","name":"Mark","permissions":{"accounts":"read","policies":"write","admin":"write"}}
+{"email":"mm@stripe.com","name":"MM","permissions":{"accounts":"read","policies":"write","admin":"write"}}
+{"email":"mm@stripe.com","name":"Marko","permissions":{"accounts":"read","policies":"write","admin":"write"}}
+{"email":"mm@stripe.com","name":"Marko","permissions":{"accounts":"read","policies":"write","admin":"write"}}
